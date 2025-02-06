@@ -39,6 +39,7 @@ public class WebActivity extends AppCompatActivity {
 
 
         mediaPlayer = new MediaPlayer();
+
         try {
             mediaPlayer.setDataSource("https://assets.mixkit.co/music/130/130.mp3");
             mediaPlayer.prepare();
